@@ -1,0 +1,3 @@
+[submodule "dbt/hpn-dbt-dw"]
+	path = dbt/hpn-dbt-dw
+	url = git@github.com:RoseIFOS/hpn-dbt-dw.git
