@@ -1,0 +1,10 @@
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+
+# Orquestração do dbt no Airflow
+astronomer-cosmos[dbt-snowflake]
+
+# Extrator Postgres -> Snowflake RAW
+snowflake-connector-python[pandas]
+pandas>=2.1.2,<3
+sqlalchemy>=2.0
+psycopg2-binary
